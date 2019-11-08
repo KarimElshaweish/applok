@@ -81,6 +81,7 @@
                 android:elevation="4dp"
                 android:layout_marginLeft="10dp"
                 android:layout_width="0dp"
+                android:onClick="openVideo"
                 android:layout_weight="1"
                 android:layout_height="120dp"
                 app:cardCornerRadius="10dp">

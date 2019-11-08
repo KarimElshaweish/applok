@@ -32,6 +32,7 @@ import android.widget.Toast;
 
 import com.example.karim.muzzafapp.Activites.Durations;
 import com.example.karim.muzzafapp.Activites.ImagesAct;
+import com.example.karim.muzzafapp.Activites.VideoAct;
 import com.example.karim.muzzafapp.Activites.newoffer;
 import com.example.karim.muzzafapp.Activites.timerList;
 import com.example.karim.muzzafapp.Fragment.AddOrder;
@@ -90,7 +91,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
+public void openVideo(View view){
+        startActivity(new Intent(this,VideoAct.class));
+}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

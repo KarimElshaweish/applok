@@ -33,7 +33,7 @@ public class MyReceiver extends BroadcastReceiver {
         Intent resultIntent = new Intent(context, MainActivity.class);
         PendingIntent resultPendingIntent = PendingIntent.getActivity(context, 1, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
         Notification notification = new NotificationCompat.Builder(context, CHANNEL_1_ID)
-                .setSmallIcon(R.drawable.icon_lunch)
+                .setSmallIcon(R.drawable.login_bk)
                 .setContentTitle("hello content")
                 .setContentText("text")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
